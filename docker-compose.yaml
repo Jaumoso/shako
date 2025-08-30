@@ -1,0 +1,7 @@
+services:
+  shako:
+    container_name: shako-linktree
+    image: ttl.sh/shako-jaumoso:1h
+    ports:
+      - 9485:80
+    restart: unless-stopped

@@ -1,0 +1,9 @@
+services:
+  shako:
+    container_name: shako-linktree
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    ports:
+      - 9485:80
+    restart: unless-stopped

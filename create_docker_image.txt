@@ -1,0 +1,2 @@
+docker build -f .\docker\Dockerfile -t ttl.sh/shako-jaumoso:15m .
+docker push ttl.sh/shako-jaumoso:15m
