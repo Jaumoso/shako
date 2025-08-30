@@ -2,8 +2,8 @@ import type { Config } from '@/types'
 
 const config: Config = {
   page: {
-    title: 'Shako - Keksi',
-    footer: true,
+    title: 'Jaume C',
+    footer: false,
     borderRadius: 0.5,
     background: 'flickering-grid',
     // redirects: {
@@ -12,10 +12,10 @@ const config: Config = {
   },
   user: {
     //* Setting name and avatar will override the Lanyard user data
-    // name: 'Keksi',
-    // avatar: 'https://avatars.githubusercontent.com/u/28254289?v=4',
+    // name: 'Jaume C',
+    // avatar: 'https://avatars.githubusercontent.com/u/48551949?v=4',
     // bio: 'Software Engineer',
-    discordId: '527147599942385674',
+    discordId: '331880264655437834',
   },
   api: {
     //* Lanyard API URL (default: https://api.lanyard.rest/)
@@ -24,55 +24,55 @@ const config: Config = {
   links: {
     //* Social links (small buttons on the top)
     social: [
-      {
-        icon: 'patreon',
-        url: 'https://patreon.com/keksi',
-      },
-      {
-        icon: 'buymeacoffee',
-        url: 'https://www.buymeacoffee.com/keksi',
-      },
-      {
-        icon: 'githubsponsors',
-        url: 'https://github.com/sponsors/keksiqc',
-      },
+      // {
+      //   icon: 'patreon',
+      //   url: 'https://patreon.com/keksi',
+      // },
+      // {
+      //   icon: 'buymeacoffee',
+      //   url: 'https://www.buymeacoffee.com/keksi',
+      // },
+      // {
+      //   icon: 'githubsponsors',
+      //   url: 'https://github.com/sponsors/keksiqc',
+      // },
     ],
     //* Primary links (big buttons)
     primary: [
       {
-        label: 'GitHub',
-        icon: 'github',
-        url: 'https://github.com/keksiqc',
-      },
-      {
         label: 'Discord',
         icon: 'discord',
-        url: 'https://discord.com/users/527147599942385674',
+        url: 'https://discord.com/users/331880264655437834',
       },
       {
-        label: 'Twitter',
-        icon: 'x',
-        url: 'https://x.com/keksiqc',
+        label: 'GitHub',
+        icon: 'github',
+        url: 'https://github.com/jaumoso',
       },
       {
-        label: 'Bluesky',
-        icon: 'bluesky',
-        url: 'https://bsky.app/profile/keksi.dev',
+        label: 'Goodreads',
+        icon: 'goodreads',
+        url: 'https://www.goodreads.com/user/show/112380807-jaume',
+      },
+      {
+        label: 'Instagram',
+        icon: 'instagram',
+        url: 'https://www.instagram.com/jaumoso/',
       },
       {
         label: 'Steam',
         icon: 'steam',
-        url: 'https://steamcommunity.com/id/keksiqc',
+        url: 'https://steamcommunity.com/id/jaumec/',
       },
       {
-        label: 'AniList',
-        icon: 'anilist',
-        url: 'https://anilist.co/user/keksi',
+        label: 'Strava',
+        icon: 'strava',
+        url: 'https://www.strava.com/athletes/jaumoso',
       },
       {
-        label: 'Trakt',
-        icon: 'trakt',
-        url: 'https://trakt.tv/users/keksiqc',
+        label: 'Spotify',
+        icon: 'spotify',
+        url: 'https://open.spotify.com/user/jaumoso23',
       },
     ],
   },
